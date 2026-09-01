@@ -19,6 +19,9 @@ build/
 # Deployment info
 deployment.json
 
+# Large binary proving keys (generated locally during proving)
+contracts/managed/**/*.prover
+
 # OS generated files
 .DS_Store
 Thumbs.db
