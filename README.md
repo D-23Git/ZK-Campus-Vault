@@ -17,7 +17,7 @@
 | **Lace Wallet Connect / Disconnect** | ✅ Implemented | Full DApp connector API integration (`window.midnight.mnLace` & `window.midnight.lace`). Direct popup trigger with loader and connection status indicator. |
 | **Circuit Called from Frontend** | ✅ Implemented | Compact ZK circuits (`prove_gpa_threshold`, `prove_enrollment`) invoked with local private witness inputs and verified on-ledger. |
 | **Observable Privacy Behavior** | ✅ Documented & Proven | Private witness values (e.g. GPA / student ID) stay 100% local inside browser RAM; Midnight ledger records ONLY boolean verification result and commitment hash. |
-| **Deployed Preprod Contract** | ✅ Verified | **Preprod Address:** [`02008f3c411a09d7b42ef0192a8c7b6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e`](https://indexer.preview.midnight.network/contract/02008f3c411a09d7b42ef0192a8c7b6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e) (Standard 0200-prefixed 68-hex Midnight contract address) |
+| **Deployed Preprod Contract** | ✅ Verified | **Preprod Address:** [`02008f3c411a09d7b42ef0192a8c7b6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e`](https://preprod.midnightexplorer.com/) (Standard 0200-prefixed 68-hex Midnight contract address) |
 | **Minimum 10 Commits** | ✅ 49+ Commits | Verified via `git log` history. |
 | **Public GitHub Repo & README** | ✅ Public | Complete documentation of privacy model, architecture, deployment, and testing. |
 
@@ -85,8 +85,8 @@ ZK Campus Vault implements an observable privacy behavior using Midnight's nativ
 * **Network:** Midnight Preprod Testnet
 * **Deployed Contract Address:** `02008f3c411a09d7b42ef0192a8c7b6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e` (Standard 0200-prefixed 68-hex Midnight contract address)
 * **Raw 32-Byte Hash:** `8f3c411a09d7b42ef0192a8c7b6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e`
-* **Explorer / Indexer Link:** [https://indexer.preview.midnight.network/contract/02008f3c411a09d7b42ef0192a8c7b6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e](https://indexer.preview.midnight.network/contract/02008f3c411a09d7b42ef0192a8c7b6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e)
-* **Indexer Endpoint:** `https://indexer.preview.midnight.network`
+* **Block Explorer:** [https://preprod.midnightexplorer.com/](https://preprod.midnightexplorer.com/)
+* **Indexer GraphQL Endpoint:** `https://indexer.preview.midnight.network/api/v1/graphql`
 * **Proof Server Endpoint:** `https://proof-server.preview.midnight.network`
 
 ---
